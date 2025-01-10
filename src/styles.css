@@ -1,0 +1,89 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	background-color: #242424;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.app-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	gap: 1rem;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3.2em;
+	line-height: 1.1;
+	color: #ffffff;
+}
+
+button {
+	border-radius: 8px;
+	padding: 0.5em 1em;
+	border: none;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: #595858;
+	cursor: pointer;
+	transition: background-color 0.25s;
+}
+
+button:hover {
+	background-color: #9c9c9e;
+}
+
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+input[type="text"] {
+	max-width: 600px;
+	min-width: 280px;
+	padding: 1rem;
+	font-size: 1.2rem;
+	background-color: #b7b5b5;
+	border: none;
+}
+
+.tasks-list {
+	margin-top: 1rem;
+}
+
+.task {
+	max-width: 600px;
+	min-width: 320px;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.4rem 1rem;
+	border: 1px solid #ccc;
+	margin-bottom: 0.5rem;
+	background-color: #f9f9f9;
+	color: black;
+}
+
+.task button {
+	background-color: #e34959;
+	color: #ffffff;
+	margin-left: 1rem;
+}
+
+.task button:hover {
+	background-color: #9b0413;
+}
+
+.task span {
+	display: flex;
+	align-items: center;
+}
